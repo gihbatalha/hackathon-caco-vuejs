@@ -2,9 +2,20 @@
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/about">About</router-link> |
+      <router-link to="/exemplo/1">Ex 1</router-link> |
+      <router-link to="/exemplo/2">Ex 2</router-link> |
+      <router-link to="/exemplo/3">Ex 3</router-link> |
+      <router-link to="/exemplo/4">Ex 4</router-link> |
+      <router-link to="/exemplo/5">Ex 5</router-link> |
+      <router-link to="/exemplo/6">Ex 6</router-link> |
+      <router-link to="/exemplo/7">Ex 7</router-link> |
+      <router-link to="/exemplo/8">Ex 8</router-link> |
+      <router-link to="/exemplo/9">Ex 9</router-link> |
+      <router-link to="/exemplo/10">Ex 10</router-link> |
+      <router-link to="/exemplo/11">Ex 11</router-link>
     </div>
-    <router-view/>
+    <router-view></router-view>
   </div>
 </template>
 
