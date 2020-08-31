@@ -6,7 +6,7 @@
 
         <!-- Podemos abreviar o v-on: por @ => v-on:click fica @click -->
         <ul>
-            <li v-for="nome in nomes" @click="selecionaNome(nome)"> {{nome}} </li>
+            <li v-for="nome in nomes" @click="selecionaNome(nome)" :key="nome"> {{nome}} </li>
         </ul>
 
         <span> Último nome selecionado:  {{nomeSelecionado}}</span>
